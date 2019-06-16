@@ -15,7 +15,6 @@
       <p id="wins-text"></p>
       <p id="losses-text"></p>
       <p id="guesses-text"></p>
-      <p id="guesses-so-far"></p>
     </div>
 
     <script type="text/javascript">
@@ -25,6 +24,7 @@
       let wins = 0;
       let losses = 0;
       let guessesLeft = 9;
+      let guesses = [];
 
       let directionsText = document.getElementById("directions-text");
       let userChoiceText = document.getElementById("userchoice-text");
@@ -32,7 +32,6 @@
       let winsText = document.getElementById("wins-text");
       let lossesText = document.getElementById("losses-text");
       let guessesLeftText = document.getElementById("guesses-text");
-      let guessesSoFarText = document.getElementById("guesses-so-far");
 
       document.onkeyup = function(event) {
         let userGuess = event.key;
