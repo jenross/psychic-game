@@ -45,6 +45,7 @@
         let computerGuess = computerChoices[Math.floor(Math.random() * computerChoices.length)];
           if (userGuess === computerGuess) {
             wins++;
+            alert("Feel the power!");
             reset();
           } else {
             guessesLeft--;
@@ -52,6 +53,7 @@
 
           if (guessesLeft === 0) {
             losses++;
+            alert("You can't fool Miss Cleo!")
             reset();
           }
 
