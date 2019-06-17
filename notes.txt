@@ -1,0 +1,6 @@
+create function to reset?
+(this would need to be defined before onkey)
+
+show array as string? .join method 
+
+now to style 
