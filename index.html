@@ -23,8 +23,8 @@
 
       let wins = 0;
       let losses = 0;
-      let guessesLeft = 9;
       let guesses = [];
+      let guessesLeft = 9;
 
       let directionsText = document.getElementById("directions-text");
       let userChoiceText = document.getElementById("userchoice-text");
@@ -33,6 +33,7 @@
       let lossesText = document.getElementById("losses-text");
       let guessesLeftText = document.getElementById("guesses-text");
 
+      for (let i = 9; i > -1; i--) {
       document.onkeyup = function(event) {
         let userGuess = event.key;
         let computerGuess = computerChoices[Math.floor(Math.random() * computerChoices.length)];
@@ -72,10 +73,11 @@
                     (userGuess === "y" && computerGuess === "y") ||
                     (userGuess === "z" && computerGuess === "z")) {
                         wins++;
-                    } else {
                         guessesLeft--;
+                    } else {
                         losses++;
-                    }
+                        guessesLeft--;
+                    } 
 
                     directionsText.textContent = "";
 
@@ -83,7 +85,11 @@
                     lossesText.textContent = "Losses: " + losses;
                     guessesLeftText.textContent = "Guesses left: " + guessesLeft;
                     userChoiceText.textContent = "Your guesses so far: " + userGuess;
+                    
+                  
+                  
                 }
+        }
       }
     </script>
   </body>
