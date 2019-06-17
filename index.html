@@ -5,11 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Psychic Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Aclonica&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div>
+    <div class="main-container">
       <h1>The Psychic Game</h1>
-      <p id="directions-text">Guess what letter I'm thinking of</p>
+      <br>
+      <p id="directions-text">Guess what letter I'm thinking of...</p>
       <p id="wins-text"></p>
       <p id="losses-text"></p>
       <p id="guesses-text"></p>
@@ -51,7 +54,6 @@
             losses++;
             reset();
           }
-          
 
           directionsText.textContent = "";
 
