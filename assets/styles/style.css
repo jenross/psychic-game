@@ -3,7 +3,7 @@
 }
 
 html, body {
-    background: url('images/celestial-background.png') no-repeat center center fixed;
+    background: url('../images/celestial-background.png') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -21,6 +21,8 @@ h1 {
 p {
     color: white;
     font-size: 25px;
+    margin-top: 20px;
+    padding: 10px;
 }
 
 .main-container {
@@ -29,5 +31,5 @@ p {
     padding: 20px;
     height: auto;
     max-width: 960px;
-    margin: 0 auto;
+    margin: 50px auto;
 }
