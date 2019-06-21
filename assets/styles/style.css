@@ -11,6 +11,14 @@ html, body {
     font-family: 'Aclonica', sans-serif;
 }
 
+img {
+    width: 300px;
+    height: 400px;
+    float: right;
+    margin-top: -250px;
+    margin-right: 50px;
+}
+
 h1 {
     color: white; 
     font-size: 50px;
@@ -29,7 +37,7 @@ p {
     background-color: rgba(0, 0, 0, 0.8);
     border: 2px solid #222;
     padding: 20px;
-    height: auto;
+    height: 600px;
     max-width: 960px;
-    margin: 50px auto;
+    margin: 25px auto;
 }

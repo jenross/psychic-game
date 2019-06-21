@@ -35,7 +35,6 @@ let computerChoices = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l
           }
 
           directionsText.textContent = "";
-
           winsText.textContent = "Wins: " + wins;
           lossesText.textContent = "Losses: " + losses;
           guessesLeftText.textContent = "Guesses left: " + guessesLeft;
