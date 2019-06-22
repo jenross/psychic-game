@@ -19,6 +19,7 @@ let computerChoices = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l
       document.onkeyup = function(event) {
         let userGuess = event.key;
         guesses.push(userGuess);
+        document.getElementById("cleo-image").src = "assets/images/MissCleo-01.png";
         let computerGuess = computerChoices[Math.floor(Math.random() * computerChoices.length)];
           if (userGuess === computerGuess) {
             wins++;
