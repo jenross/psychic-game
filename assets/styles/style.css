@@ -25,13 +25,10 @@ html, body {
     line-height: 1.5;
 }
 
-#cleo-image {
-    width: 300px;
-    height: 400px;
-    float: right;
-    margin-top: -275px;
-    margin-right: 60px;
-    border: none;
+img {
+    width: 350px;
+    height: 400px; 
+    
 }
 
 h1 {
@@ -39,6 +36,7 @@ h1 {
     font-size: 50px;
     text-align: center;
     border-bottom: 1px solid #222;
+    width: 100%;
 }
 
 p {
@@ -52,11 +50,15 @@ p {
     background-color: rgba(0, 0, 0, 0.8);
     border: 2px solid #222;
     padding: 20px;
-    height: 600px;
-    max-width: 960px;
-    margin: 25px auto;
+    height: auto;
+    width: auto;
+    margin: 25px auto; 
 }
 
 .text-muted {
     color: white!important; 
+}
+
+#directions-text {
+    font-size: 30px;
 }
