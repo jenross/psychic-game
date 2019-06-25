@@ -26,9 +26,8 @@ html, body {
 }
 
 img {
-    width: 350px;
-    height: 400px; 
-    
+    width: 250px;
+    height: 300px; 
 }
 
 h1 {
@@ -52,7 +51,7 @@ p {
     padding: 20px;
     height: auto;
     width: auto;
-    margin: 25px auto; 
+    margin: 0 auto; 
 }
 
 .text-muted {
@@ -62,3 +61,8 @@ p {
 #directions-text {
     font-size: 30px;
 }
+
+#userchoice-text {
+    text-align: center;
+}
+

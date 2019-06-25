@@ -1,1 +1,3 @@
-# psychic-game
+Check out this simple letter-guessing game made with HTML, CSS, and vanilla JavaScript. I created this for one of the week 3 homework options for the University of Central Florida coding boot camp. I paid homage to Miss Cleo (the most powerful psychic of them all!) in the theme/styling and am still working on adding more features to make it fun and learn more about programming. 
+
+You can play the game here: https://jenross.github.io/psychic-game/. 
